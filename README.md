@@ -1,2 +1,2 @@
-# TriviaGame
-utilize JavaScript and jQuery to create a trivia game using a timer
+Trivia Game
+This game will utilize JavaScript and jQuery to create a timed-answer trivia game.
