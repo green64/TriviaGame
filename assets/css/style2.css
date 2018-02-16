@@ -29,6 +29,12 @@ div.image-bar{
 div.solid{
 background-color: #0b0b0c;
 }
+#terrors{
+  color: #f8f6f0;
+  font-size:20px;
+  text-align:center;
+  font-weight: bold;
+}
 #timer{
   background-color: #f8f6f0;
   color: #0b0b0c;

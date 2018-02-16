@@ -4,7 +4,7 @@
     //this is my timer
     // document.getElementById('timer').innerHTML =
     //     01 + ":" + 00;
-        $('#timer').html(02 + ":" + 00);
+    $('#timer').html(02 + ":" + 00);
     startTimer();
 
     function startTimer() {
@@ -12,16 +12,17 @@
         var timeArray = presentTime.split(/[:]+/);
         var m = timeArray[0];
         var s = checkSecond((timeArray[1] - 1));
-        // var resetButton = $('<button>');
-        // resetButton.attr('id', "resetBtn");
-        // resetButton.text('Reset');
-        // $('#results').append(resetButton);
 
         if (s == 59) { m = m - 1 }
         if (m < 0) {
-            alert('The night is dark and full of trivia! Try again.');
-            // document.getElementById('reset').innerHTML = '<button>Restart Game</button>';
-            // $("#results").show();
+            $('#terrors').append("The night is dark and full of trivia. Try again!");
+
+            var resetBtn = $("<button>").html("Reset", "Restart Game").click(function () {
+                location.reload()
+            });
+
+            $("#reset").append(resetBtn);
+            $("#results").show();
             return;
         }
         document.getElementById('timer').innerHTML =
@@ -288,5 +289,10 @@
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
 
-
+    $("#reset").click(function () {
+        $("div").hide();
+    });
+    $("#show").click(function () {
+        $("div").show();
+    });
 })();
