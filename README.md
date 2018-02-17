@@ -1,5 +1,4 @@
-#Game of Thrones Trivia
-
+# Game of Thrones Trivia
 [Game of Thrones Trivia](https://green64.github.io/TriviaGame/)
 
 **Object**
