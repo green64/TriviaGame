@@ -1,5 +1,5 @@
 <h1>Game of Thrones Trivia</h1>
-[game link](https://green64.github.io/TriviaGame/)
+[Game of Thrones Trivia](https://green64.github.io/TriviaGame/)
 
 **Object**
 
