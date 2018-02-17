@@ -1,6 +1,7 @@
 [Game of Thrones Trivia](https://green64.github.io/TriviaGame/)
 
 <h1>Game of Thrones Trivia</h1>
+
 **Object**
 
 The goal of this game is to answer the trivia questions before time runs out.
