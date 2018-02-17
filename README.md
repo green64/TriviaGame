@@ -1,3 +1,6 @@
+# Game of Thrones Trivia
+
+
 [Game of Thrones Trivia](https://green64.github.io/TriviaGame/)
 
 The jQuery training wheels are most definitely still on. But I'm Googling more efficiently, writing (a little) leaner code with jQuery and understanding the big picture a wee bit better with every mistake. Ok not every one. But it's happening.
