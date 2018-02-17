@@ -4,7 +4,7 @@
     //this is my timer
     // document.getElementById('timer').innerHTML =
     //     01 + ":" + 00;
-    $('#timer').html(02 + ":" + 00);
+    $('#timer').html(00 + ":" + 05);
     startTimer();
 
     function startTimer() {
@@ -15,7 +15,8 @@
 
         if (s == 59) { m = m - 1 }
         if (m < 0) {
-            $('#terrors').append("The night is dark and full of trivia. Try again!");
+            // $('#terrors').append("The night is dark and full of trivia. Try again!");
+            $('#terrors').fadeIn(2000);
 
             var resetBtn = $("<button>").html("Reset", "Restart Game").click(function () {
                 location.reload()
