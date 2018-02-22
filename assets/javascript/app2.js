@@ -4,7 +4,7 @@
     //this is my timer
     // document.getElementById('timer').innerHTML =
     //     01 + ":" + 00;
-    $('#timer').html(00 + ":" + 05);
+    $('#timer').html(02 + ":" + 00);
     startTimer();
 
     function startTimer() {
